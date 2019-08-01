@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuffleLines", "ShuffleLines.csproj", "{AB8F5977-9877-47E2-AD6B-294D0B2EE70D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB8F5977-9877-47E2-AD6B-294D0B2EE70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8F5977-9877-47E2-AD6B-294D0B2EE70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8F5977-9877-47E2-AD6B-294D0B2EE70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8F5977-9877-47E2-AD6B-294D0B2EE70D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1B8BBC-0BBE-4B59-93B1-1DF07B54496A}
+	EndGlobalSection
+EndGlobal
