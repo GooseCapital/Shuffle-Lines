@@ -7,7 +7,7 @@
     <ProjectGuid>{AB8F5977-9877-47E2-AD6B-294D0B2EE70D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>ShuffleLines</RootNamespace>
-    <AssemblyName>ShuffleLines</AssemblyName>
+    <AssemblyName>Format File</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Account.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>

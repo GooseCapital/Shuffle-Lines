@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShuffleLines"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Tool File" Height="169.31" Width="433">
     <Grid>
-        
+        <Button x:Name="BtnShuffleFile" Content="Đảo dòng File" HorizontalAlignment="Left" Height="118" Margin="10,10,0,0" VerticalAlignment="Top" Width="123" Click="BtnShuffleFile_Click"/>
+        <Button x:Name="BtnReFormatFile" Content="Định dạng lại File" HorizontalAlignment="Left" Height="118" Margin="151,10,0,0" VerticalAlignment="Top" Width="114" Click="BtnReFormatFile_Click"/>
+        <Button x:Name="BtnScale" Content="Tỉ lệ" HorizontalAlignment="Left" Height="89" Margin="291,39,0,0" VerticalAlignment="Top" Width="114" Click="BtnScale_Click"/>
+        <TextBox x:Name="TbScale" HorizontalAlignment="Left" Height="24" Margin="291,10,0,0" TextWrapping="Wrap" Text="1:1" VerticalAlignment="Top" Width="114" MaxLines="1" TextAlignment="Center" TextChanged="TbScale_TextChanged"/>
+
     </Grid>
 </Window>
